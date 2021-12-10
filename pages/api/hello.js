@@ -1,5 +1,8 @@
 import Cors from 'cors'
 import initMiddleware from '../../lib/init-middleware'
+import { MongoClient } from 'mongodb'
+const uri = process.env.MONGODB_URI
+
 
 // Initialize the cors middleware
 const cors = initMiddleware(
@@ -12,10 +15,17 @@ const cors = initMiddleware(
 
 export default async function handler (req, res) {
   // Run cors
-  await cors(req, res)
+    await cors(req, res);
+  
+    MongoClient.connect(uri, function(err, db) {
+        if (err) throw err;
+        var dbo = db.db("test");
+        var myobj = { name: "request", amount: 1 };
+        dbo.collection("cssexamples").insertOne(myobj, function(err, response) {
+            if (err) throw err;
+            res.status(200).json({message: "document inserted!"});
+            db.close();
+        });
 
-  // Rest of the API logic
-  res.status(200).json({
-    message: 'Hello World'
-  })
+    });
 }
