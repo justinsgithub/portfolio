@@ -1,15 +1,13 @@
-export const projects = [
-  {
+export const projects = [{
     title: 'Automated Marketing',
     description: "Automated social media interactions on adult website, using Selenium Python. Program gathers the top 8,000 users information in each state, and also follows up to 300 users on each run, gathers users data including gender, username, site user-id, and lifestyle. Follows up to 300 users on each run and likes 3 pictures of a different user every 1.5 seconds. ",
     image: '/images/2.png',
     tags: ['Mongo', 'Python'],
-    source: 'https://github.com/justinsgithub/JustinsGithub/tree/main/Python/SocialAutomation/Stable',
+    source: 'https://github.com/justinsgithub/JustinsGithub/tree/main/Python/SocialAutomation',
     visit: '/images/sa5.png',
     id: 0,
-  }
-]
- /* ,
+}]
+/* ,
   {
     title: 'E-Commerce',
     description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
@@ -39,10 +37,24 @@ export const projects = [
   },
 ];
 */
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+export const TimeLineData = [{
+        year: 2017,
+        text: 'Started my journey',
+    },
+    {
+        year: 2018,
+        text: 'Worked as a freelance developer',
+    },
+    {
+        year: 2019,
+        text: 'Founded JavaScript Mastery',
+    },
+    {
+        year: 2020,
+        text: 'Shared my projects with the world',
+    },
+    {
+        year: 2021,
+        text: 'Started my own platform',
+    },
 ];
