@@ -29,7 +29,7 @@ const Technologies = () =>  (
                     <ListTitle>Back End</ListTitle>
                     <ListParagraph>
                         Python <br />
-                        Ruby
+                        Ruby <br />
                         NodeJS
                     </ListParagraph>
                 </ListContainer>
