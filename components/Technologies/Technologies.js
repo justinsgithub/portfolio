@@ -8,7 +8,7 @@ const Technologies = () =>  (
         <SectionDivider />
         <SectionTitle>Technologies</SectionTitle>
         <SectionText>
-            I have experience in a range of domains, but I lean towards backend / server-side development. I love learning new technologies and have learned to practice keeping an open mind about all life topics in general. My biggest mentor is Paul Check, founder of the Check Institute.
+            I have experience in a range of domains, but I lean towards backend / server-side development. I love learning new technologies and have learned to practice keeping an open mind about all life topics in general. My biggest mentor is Paul Check, founder of the Chek Institute.
         </SectionText>
 
         <List>
