@@ -1,6 +1,6 @@
 export const projects = [{
     title: 'Automated Marketing',
-    description: "Automated social media interactions on adult website, using Selenium Python. Program gathers the top 8,000 users information in each state, and also follows up to 300 users on each run, gathers users data including gender, username, site user-id, and lifestyle. Follows up to 300 users on each run and likes 3 pictures of a different user every 1.5 seconds. ",
+    description: "Automated social media interactions on adult website. Program gathered data from about 400,000 users. Program pick users to follow and like pictures based on client target market. Grew client's 1st social media following from under 100 users to over 7,000 users and 2nd social media to about 2,000 users",
     image: '/images/2.png',
     tags: ['Mongo', 'Python'],
     source: 'https://github.com/justinsgithub/JustinsGithub/tree/main/SocialAutomation',
