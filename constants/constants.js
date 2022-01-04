@@ -9,7 +9,7 @@ export const projects = [{
 },
   {
     title: 'Learning Docs',
-    description:"A documentation site for all of the things that I learn. To use as a place for future reference. My hope is that this site demonstrates my knowledge / learning  capacity to the fullest extent without a real meeting. I also think overtime I can curate this project into a nice and concise place for anyone to learn from.",
+    description:"A documentation site for all of the things that I learn. To use as a place for future reference. I also think overtime I can curate this project into a nice and concise place for anyone to learn from.",
     image: '/images/learning-docs.png',
     tags: ['Python Material MkDocs', 'MarkDown'],
     source: 'https://github.com/justinsgithub/learning-docs',

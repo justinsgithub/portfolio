@@ -9,7 +9,7 @@ const Footer = () => {
     <FooterWrapper id="contact">
         <LinkList>
             <LinkColumn>
-                <LinkItem href="https://www.linkedin.com/in/justinaawd/"> Contact On LinkedIn </LinkItem>
+                <LinkItem href="https://www.linkedin.com/in/justinaawd/"> Reach Me On LinkedIn </LinkItem>
             </LinkColumn>
         </LinkList>
         <SocialIconsContainer>
