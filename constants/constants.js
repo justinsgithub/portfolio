@@ -6,17 +6,19 @@ export const projects = [{
     source: 'https://github.com/justinsgithub/JustinsGithub/tree/main/SocialAutomation',
     visit: '/images/sa5.png',
     id: 0,
-}]
-/* ,
+},
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Learning Docs',
+    description:"A documentation site for all of the things that I learn. To use as a place for future reference. My hope is that this site demonstrates my knowledge / learning  capacity to the fullest extent without a real meeting. I also think overtime I can curate this project into a nice and concise place for anyone to go and learn.",
+    image: '/images/learning-docs.png',
+    tags: ['Python Material MkDocs', 'MarkDown'],
+    source: 'https://github.com/justinsgithub/learning-docs',
+    visit: 'https://docs.justintylers.com',
     id: 1,
-  },
+  }]
+
+/* 
+  ,
   {
     title: 'WebRTC App',
     description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
