@@ -12,7 +12,7 @@ export const projects = [{
     description:"A documentation site for all of the things that I learn. To use as a place for future reference. I also think overtime I can curate this project into a nice and concise place for anyone to learn from.",
     image: '/images/learning-docs.png',
     tags: ['Python Material MkDocs', 'MarkDown'],
-    source: 'https://github.com/justinsgithub/learning-docs',
+    source: 'https://github.com/justinsgithub/docs',
     visit: 'https://docs.justintylers.com',
     id: 1,
   }]
